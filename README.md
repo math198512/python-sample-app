@@ -1,6 +1,6 @@
 # Flask Project
 
-This is a simple Flask project that serves a single-page application with a scrolling text animation and images.
+This is a simple Flask project that serves a single-page application with a scrolling text animation and image.
 
 ## Project Structure
 
