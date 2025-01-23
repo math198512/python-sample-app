@@ -40,7 +40,7 @@ This is a simple Flask project that serves a single-page application with a scro
 
 ## Running Tests
 
-1. Run the unit tests:
+1. Run the unit-tests:
     ```sh
     python -m unittest discover tests
     ```
