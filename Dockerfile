@@ -4,7 +4,7 @@ FROM python:3.9-slim
 #Set working dir
 WORKDIR /app
 
-#Copy in the requirements
+#Copy in the requirements file
 COPY requirements.txt .
 
 #install requirements
