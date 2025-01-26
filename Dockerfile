@@ -2,7 +2,7 @@
 FROM python:3.9-slim
 
 #Set working dir
-WORKDIR /app
+WORKDIR .
 
 #Copy in the requirements file
 COPY requirements.txt .
@@ -17,5 +17,5 @@ COPY . .
 EXPOSE 5000
 
 #Start server
-CMD ["python3", "run.py"]
+CMD ["python3", "server.py"]
 
