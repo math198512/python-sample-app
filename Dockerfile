@@ -11,7 +11,7 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 #Sources files
-COPY . .
+COPY . ./
 
 #Expose port
 EXPOSE 5000
