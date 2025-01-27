@@ -1,5 +1,5 @@
 import unittest
-from app import app
+import server as app
 
 class TestRoutes(unittest.TestCase):
     def setUp(self):
